@@ -1,0 +1,11 @@
+
+Functionalities:
+    7. Copy
+    8. SS disconnection
+
+To Integrate:
+    1. Search
+    2. LIST
+
+If time:
+    3. Data Redunduncy

@@ -272,12 +272,8 @@ void client() {
                 exit(0);
             }
             if (ack != 0) {
-                printf("Error: CREATE Operation failed. ERR_NO: %d\n",ack);
+                printf("Error: CREATE Operation failed\n");
             }
-            else{
-                printf("Operation Successfull!\n");
-            }
-            
 
         } else if (strcmp(string, "DELETE") == 0) {
             int sendstatus = send(NMsocket, input, 1024, 0);
@@ -292,10 +288,7 @@ void client() {
                 exit(0);
             }
             if (ack != 0) {
-                printf("Error: DELETE Operation failed. ERR_NO: %d\n",ack);
-            }
-            else{
-                printf("Operation Successfull!\n");
+                printf("Error: DELETE Operation failed\n");
             }
         } else if (strcmp(string, "COPY") == 0) {
         } else {
